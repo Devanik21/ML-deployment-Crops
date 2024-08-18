@@ -3,10 +3,10 @@ import pandas as pd
 import joblib
 
 # Load the dataset
-df = pd.read_csv("C:\\imp\\ml JUPYTER\\MY ML PROJECTS(BOOK)\\3.Deep learning\\ANN\\Recreation\\crop(Deployed)\\Deployment\\Crop_recommendation.csv")
+df = pd.read_csv("Crop_recommendation.csv")
 
 # Load the trained model (adjust the path to where your model is saved)
-model = joblib.load("C:\\imp\\ml JUPYTER\\MY ML PROJECTS(BOOK)\\3.Deep learning\\ANN\\Recreation\\crop(Deployed)\\Deployment\\RF_crop recommendation.pkl")  # Replace with your actual model path
+model = joblib.load("RF_crop recommendation.pkl")  # Replace with your actual model path
 
 # Title of the web app
 st.title("Crop Recommendation Prediction Web App")
